@@ -1,0 +1,7 @@
+html, body {
+}
+
+*::before, *::after {
+    font-family: fonticon;
+}
+

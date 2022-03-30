@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="./common/css/style.css" />
+
+    <link rel="stylesheet" href="./common/css/font.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      type="text/css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Telegram Web</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="container-item side-bar">
+        <a href="#" class="side-bar-icon menu"> </a>
+
+        <a href="#" class="side-bar-icon all-chats" data-badget="+99">
+          <span class="chat-type">All chats</span>
+        </a>
+
+        <a href="#" class="side-bar-icon channels" data-badget="+99">
+          <span class="chat-type">Channels</span>
+        </a>
+
+        <a href="#" class="side-bar-icon groups" data-badget="+99">
+          <span class="chat-type">Groups</span>
+        </a>
+
+        <a href="#" class="side-bar-icon private" data-badget="3">
+          <span class="chat-type">Personal</span>
+        </a>
+
+        <a href="#" class="side-bar-icon favorits">
+          <span class="chat-type">favorite</span>
+        </a>
+
+        <a href="#" class="side-bar-icon unread" data-badget="+99">
+          <span class="chat-type">Unread</span>
+        </a>
+      </section>
+
+      <section class="container-item chat-list">
+        <div class="chat-list__search-box-wrapper">
+          <input
+            type="search"
+            class="chat-list__search-box"
+            placeholder="search"
+          />
+        </div>
+
+        <div class="chat-list__item card1">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo5.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="speaker-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/50/000000/sound-speaker.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  Memes,Memes Ever...
+                </span>
+              </div>
+              <span class="chat-list__item--info-details-time">12:03 ب.ظ</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"> You joined this channel </span>
+              <span class="msg"> </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card0">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo0.jpg" />
+          </div>
+
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="speaker-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/50/000000/sound-speaker.png"
+                />
+                <span class="chat-list__item--info-details-name"
+                  >UDEMY FREE Coursevania</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">1 ظهر</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"> </span>
+              <span class="msg">
+                <img class="gif" alt="" src="img/udemy.jpg" />
+                AWS SageMaker Complete Course | PyTorch & Tensorflow in NLP
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card2">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/jsGroup-profile-photo.jpg" />
+          </div>
+
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="group-icon"
+                  alt=" "
+                  src="https://img.icons8.com/material/50/000000/group-foreground-selected.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  JS Group</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">3 ب.ظ</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"> You : Album </span>
+              <span class="msg"></span>
+              <div class="seen-tik"></div>
+              <div class="send-tik"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card3">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo3.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="group-icon"
+                  alt=" "
+                  src="https://img.icons8.com/material/50/000000/group-foreground-selected.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  Developers Communi...</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">5 صبح</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name">Mr.David : </span>
+              <span class="msg">کذب</span>
+              <div class="data-badget">64</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card4">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo4.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="group-icon"
+                  alt=" "
+                  src="https://img.icons8.com/material/50/000000/group-foreground-selected.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  CSS-Tricks.ir Group</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">سه شنبه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name">
+                DEMOGORGON :
+                <img class="gif" alt="" src="img/gif.jpg" />
+                GIF
+              </span>
+              <span class="msg"></span>
+              <div class="data-badget">19</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card5">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo7.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="group-icon"
+                  alt=" "
+                  src="https://img.icons8.com/material/50/000000/group-foreground-selected.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  جامعه ری اکت ایران</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">چهارشنبه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"
+                >Mamad :
+                <img class="emoji" alt="" src="img/emojispack.png" />
+                Sticker
+              </span>
+              <span class="msg"></span>
+              <div class="data-badget">97</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card6">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo8.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="bot-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/96/000000/bot.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  YouTubeDownloader</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">چهارشنبه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"></span>
+              <span class="msg"
+                >Hello Dear,Thanks to join YouTube Downloader Bot</span
+              >
+              <div class="data-badget">1</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card7">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo9.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="speaker-icon"
+                  alt=" "
+                  class="speaker-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/50/000000/sound-speaker.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  Vue Mastery js</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">یکشنبه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"
+                >Vue Mastery Courses pinned "New Co..</span
+              >
+              <span class="msg"></span>
+              <div class="data-badget">21</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card8">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo10.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  class="group-icon"
+                  alt=" "
+                  src="https://img.icons8.com/material/50/000000/group-foreground-selected.png"
+                />
+                <span class="chat-list__item--info-details-name"
+                  >Web Develpers</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">پنج شنبه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name">Bahare : </span>
+              <span class="msg">:/</span>
+              <div class="data-badget">137</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card9">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo11.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="bot-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/96/000000/bot.png"
+                />
+                <span class="chat-list__item--info-details-name">
+                  Round DeepFake</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">جمعه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"></span>
+              <span class="msg">\start</span>
+              <div class="send-tik"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card10">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo12.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="bot-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/96/000000/bot.png"
+                />
+                <span class="chat-list__item--info-details-name"
+                  >Rextester</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">جمعه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"></span>
+              <span class="msg"
+                >/ada, /asm ,/ bash ,/brainfuck,/c ++ c/java/js/
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card11">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo13.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="bot-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/96/000000/bot.png"
+                />
+                <span class="chat-list__item--info-details-name"
+                  >InstaSave</span
+                >
+              </div>
+              <span class="chat-list__item--info-details-time">جمعه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"></span>
+              <span class="msg"
+                >https://www.instagram.com/tv/COvOl8KnopE/?igshid=1iwiaorxp659c
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-list__item card12">
+          <div class="chat-list__item--profile-photo">
+            <img class="img" alt="" src="img/profile-photo14.jpg" />
+          </div>
+          <div class="chat-list__item--info">
+            <div class="chat-list__item--info-details">
+              <div class="wrapper">
+                <img
+                  alt=" "
+                  class="bot-icon"
+                  src="https://img.icons8.com/fluent-systems-filled/96/000000/bot.png"
+                />
+                <span class="chat-list__item--info-details-name"> MeloBot</span>
+              </div>
+              <span class="chat-list__item--info-details-time">جمعه</span>
+            </div>
+            <div class="chat-list__item--msg">
+              <span class="sender-name"></span>
+              <span dir="rtl" class="msg">
+                به منظور حفظ حقوق خواننده آهنگ از دسترس خارج شد.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-item chat-box">
+        <img class="wallpaper" alt=" " src=".\img\wallpaper-flower.jpg" />
+
+        <div class="dialog">
+          <div class="dialog__header">
+            <div class="info">
+              <p class="dialog__header--chat-info">UDEMY FREE Coursevania</p>
+              <p class="dialog__header--chat-members">106337 عضو</p>
+            </div>
+
+            <div class="icons">
+              <img
+                class="magnifier-icon header-icon"
+                src="img/magnifier-icon-gray.png"
+                alt=""
+              />
+              <img
+                class="shrink-icon header-icon"
+                src="img/shrink-icon-gray.png"
+                alt=""
+              />
+              <img
+                class="menu-icon header-icon"
+                src="img/menu-icon-gray.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="dialog__box">
+            <div class="dialog__box--header">
+              <p>UDEMY FREE Coursevania</p>
+            </div>
+
+            <div class="dialog__box--img">
+              <img src="img/udemy.jpg" alt="" />
+            </div>
+
+            <div class="dialog__box--caption">
+              <p>WS SageMaker Complete Course| PyTorch & Tensorflow</p>
+              <p>FREE For Now</p>
+              <p>
+                Build deep learning model in Tensorflow/Keras & PyTorch. How to
+                bring docker container&Algorithm from local to Sagemake
+              </p>
+              <a
+                href="https://coursevania.com/courses/aws-sagemaker-complete-course-pytorch-tensorflow-in-nlp/"
+              >
+                https://coursevania.com/courses/aws-sagemaker-complete-course-pytorch-tensorflow-in-nlp/
+              </a>
+              <span class="dialog__box--post-view">
+                <img alt="" src="img/eye-icon.png" />
+                <span>1220</span>
+                <span>12:24 ظهر</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="dialog__box">
+            <div class="dialog__box--header">
+              <p>UDEMY FREE Coursevania</p>
+            </div>
+
+            <div class="dialog__box--img">
+              <img src="img/udemy1.jpg" alt="" />
+            </div>
+
+            <div class="dialog__box--caption">
+              <p>Oracle Database Administration : Oracle Express Edition 18c</p>
+              <p>FREE For Now</p>
+              <p>
+                Step by step instructions for Installation, Configuration &
+                Administration of Oracle Express Edition 18c Database
+              </p>
+              <a
+                href="https://coursevania.com/courses/oracle-database-administration-oracle-express-edition-18c/"
+              >
+                https://coursevania.com/courses/oracle-database-administration-oracle-express-edition-18c/
+              </a>
+              <span class="dialog__box--post-view">
+                <img alt="" src="img/eye-icon.png" />
+                <span>1014</span>
+                <span>1:45 ظهر</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="dialog__box">
+            <div class="dialog__box--header">
+              <p>UDEMY FREE Coursevania</p>
+            </div>
+
+            <div class="dialog__box--img">
+              <img src="img/udemy3.jpg" alt="" />
+            </div>
+
+            <div class="dialog__box--caption">
+              <p>Gatsby JS | Build a personal blog using gatsbyJS</p>
+              <p>FREE For Now</p>
+              <p>
+                Learn Gatsby JS and GraphQL to increase your knowledge in modern
+                web development.
+              </p>
+              <a
+                href="https://coursevania.com/courses/gatsby-js-build-a-personal-blog-using-gatsbyjs/"
+              >
+                https://coursevania.com/courses/gatsby-js-build-a-personal-blog-using-gatsbyjs/
+              </a>
+              <span class="dialog__box--post-view">
+                <img alt="" src="img/eye-icon.png" />
+                <span>996</span>
+                <span>10:32 صبح</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="dialog__box">
+            <div class="dialog__box--header">
+              <p>UDEMY FREE Coursevania</p>
+            </div>
+
+            <div class="dialog__box--img">
+              <img src="img/udemy4.jpg" alt="" />
+            </div>
+
+            <div class="dialog__box--caption">
+              <p>CodeIgniter 4: Create Web Applications using PHP and MySQL</p>
+              <p>FREE For Now</p>
+              <p>
+                Start creating web applications using CodeIgniter, PHP and MySQL
+                database!
+              </p>
+              <a
+                href="https://coursevania.com/courses/codeigniter-4-create-web-applications-using-php-and-mysql/"
+              >
+                https://coursevania.com/courses/codeigniter-4-create-web-applications-using-php-and-mysql/
+              </a>
+              <span class="dialog__box--post-view">
+                <img alt="" src="img/eye-icon.png" />
+                <span>2303</span>
+                <span>9:00 صبح</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="dialog__box">
+            <div class="dialog__box--header">
+              <p>UDEMY FREE Coursevania</p>
+            </div>
+
+            <div class="dialog__box--img">
+              <img src="img/udemy5.jpg" alt="" />
+            </div>
+
+            <div class="dialog__box--caption">
+              <p>
+                Videoscribe Whiteboard Animations : MasterClass With Project
+              </p>
+              <p>FREE For Now</p>
+              <p>
+                High quality professional Sparkol Videoscribe whiteboard video
+                animations. Videoscribe training videos for beginners
+              </p>
+              <a
+                href="https://coursevania.com/courses/videoscribe-whiteboard-animations-masterclass-with-project/"
+              >
+                https://coursevania.com/courses/videoscribe-whiteboard-animations-masterclass-with-project/
+              </a>
+              <span class="dialog__box--post-view">
+                <img alt="" src="img/eye-icon.png" />
+                <span>3754</span>
+                <span>8:22 صبح</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="dialog__footer">UNMUTE</div>
+        </div>
+      </section>
+
+      <!-- <section class="container-item chat-info">chat-info</section> -->
+    </div>
+  </body>
+</html>

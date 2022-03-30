@@ -1,0 +1,26 @@
+--- replaces.cpp	2018-02-02 00:23:29.719671678 +0100
++++ replaces.cpp.mod	2018-02-02 00:23:01.296737786 +0100
+@@ -448,9 +448,23 @@
+ 				id += QChar(kPostfix);
+ 			}
+ 
++			QString codes;
++			QString name;
+ 			for (auto it = sorted.find(id); it != sorted.cend(); sorted.erase(it), it = sorted.find(id)) {
++				if (codes.length() > 0) {
++					codes += " ";
++				}
++				codes += it.value().replacement;
++				name = it.value().name;
++
+ 				result.list.push_back(it.value());
+ 			}
++
++			auto y = -index/40 * 45;
++			auto x = -index%40 * 45;
++
++			std::cout << "<tr><td><div class=\"emj\" style=\"background-position: " << x << "px " << y << "px\"></div></td><td><strong>" << codes.toStdString() << "</strong><br/>" << \
++				name.toStdString() << "</td></tr>" << std::endl;
+ 		}
+ 	}
+ 	if (result.list.size() != replaces.list.size()) {
